@@ -37,9 +37,9 @@ def message(color, message):
         f"\033[95m {currentTime(True)}]\033[0m"
         f"\033[9{color}m {message}\033[0m\n"
     )
-    logFile = open("log.log", "a")
-    logFile.write(f"[{currentDate()}" f"|{currentTime(True)}]" f" {message}\n")
-    logFile.close()
+    # logFile = open("log.log", "a")
+    # logFile.write(f"[{currentDate()}" f"|{currentTime(True)}]" f" {message}\n")
+    # logFile.close()
 
 def addPoints(points, user):
     connection = sqlite3.connect("db/users.db")
