@@ -9,7 +9,6 @@ def deletePost(postID):
     connection.commit()
     message("2", f'POST: "{postID}" DELETED')
 
-
 def deleteUser(userName):
     connection = sqlite3.connect("db/users.db")
     cursor = connection.cursor()
@@ -20,13 +19,12 @@ def deleteUser(userName):
     cursor.execute(f"update sqlite_sequence set seq = seq-1")
     connection.commit()
     message("2", f'USER: "{userName}" DELETED')
-    match perpetrator[0] == "admin":
-        case True:
-            return redirect(f"/admin/users")
-        case False:
-            session.clear()
-            return redirect(f"/")
-
+    
+    if perpetrator and perpetrator[0] == "admin":
+        return redirect(f"/admin/users")
+    else:
+        session.clear()
+        return redirect("/")
 
 def deleteComment(commentID):
     connection = sqlite3.connect("db/comments.db")
