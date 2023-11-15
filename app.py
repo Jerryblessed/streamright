@@ -21,7 +21,7 @@ if __name__ == '__main__':
     port = int(port)
     app.run(debug=True, port=port, host='0.0.0.0')
  
-
+# on windows pc please uncomment the below and comment the above
 # import socket
 # import os
 # from helpers import (
