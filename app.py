@@ -120,11 +120,11 @@ app.register_blueprint(adminPanelCommentsBlueprint)
 app.register_blueprint(changeProfilePictureBlueprint)
 
 
-if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+# if __name__ == "__main__":
+#     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
 
-# if __name__ == '__main__':
-#     port = os.environ.get('FLASK_PORT') or 5000  # Change to the port you prefer
-#     port = int(port)
-#     app.run(port=port, host='0.0.0.0')
+if __name__ == '__main__':
+    port = os.environ.get('FLASK_PORT') or 5000  # Change to the port you prefer
+    port = int(port)
+    app.run(debug=True, port=port, host='0.0.0.0')
  
