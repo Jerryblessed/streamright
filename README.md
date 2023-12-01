@@ -1,4 +1,4 @@
-# [Software bank📜](http://jerryblessed.pythonanywhere.com/)
+# [Software bank📜](https://flaskhealthy.azurewebsites.net/)
 
 Simple blog app built with Flask.
 <br/>
