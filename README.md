@@ -8,7 +8,7 @@ Simple blog app built with Flask.
 
 | [Desktop](https://github.com/Jerryblessed/Softwarebank/tree/master/images/desktop) | [Mobile](https://github.com/Jerryblessed/Softwarebank/tree/master/images/mobile) |
 | :-----------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-|                    ![appDesktop](/images/desktop/light.png)                     |                    ![appMobile](/images/mobile/light.jpeg)                    |
+|                    https://www.dropbox.com/scl/fi/225feybpxw6ps8aq4lnmc/Screenshot-25.png?rlkey=xli4q31daqhkdcseohry5eek1&dl=0                     |                    ![appMobile](/images/mobile/light.jpeg)                    |
 |                     ![appDesktop](/images/desktop/dark.png)                     |                    ![appMobile](/images/mobile/dark.jpeg)                     |
 
 [click for more images📷](https://github.com/Jerryblessed/Softwarebank/tree/master/images)
