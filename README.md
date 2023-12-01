@@ -1,4 +1,4 @@
-# [Software bank📜](http://softwarebank-git-jerryblessed-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/)
+# [Software bank📜](http://jerryblessed.pythonanywhere.com/)
 
 Simple blog app built with Flask.
 <br/>
