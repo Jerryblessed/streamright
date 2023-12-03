@@ -1,4 +1,4 @@
-# [Software bank📜](https://flaskhealthy.azurewebsites.net/)
+# [Software bank📜](https://github.com/Jerryblessed/NaijaSDGs2023-healthyways)
 
 Simple blog app built with Flask.
 <br/>
