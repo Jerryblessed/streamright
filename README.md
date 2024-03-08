@@ -31,7 +31,7 @@ Run the application:
 python app.py
 ```
 Access the application in your web browser at http://localhost:5000
-Access the compression repo in your web browser at [http://localhost:5000.](https://github.com/matchamoon/tsubasa)
+Access the compression repo in your web browser at https://github.com/matchamoon/tsubasa
 
 Usage
 Sign up for an account and verify your email address.
