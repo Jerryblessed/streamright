@@ -16,19 +16,20 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/jerryblessed/streamright.git
-
+```
 pip install -r requirements.txt
 
 Install dependencies:
 
 bash
-Copy code
+```
 pip install -r requirements.txt
+```
 Run the application:
 
-bash
-Copy code
+```
 python app.py
+```
 Access the application in your web browser at http://localhost:5000.
 
 Usage
