@@ -1,4 +1,4 @@
-# Stream Right
+# 🎥 Stream Right
 
 Stream Right is a versatile platform that offers video compression services along with live streaming, blogging, and article uploading capabilities. It aims to provide users with a seamless experience for sharing content, even in low-internet conditions.
 
